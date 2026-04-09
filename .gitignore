@@ -1,0 +1,33 @@
+# --- General ---
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.log
+
+# --- Backend (Django REST Framework) ---
+django-api/__pycache__/
+django-api/*.py[cod]
+django-api/*$py.class
+django-api/.venv/
+django-api/venv/
+django-api/env/
+django-api/*.sqlite3
+django-api/media/
+django-api/staticfiles/
+
+# --- Frontend (Next.js) ---
+frontend-nextjs/node_modules/
+frontend-nextjs/.next/
+frontend-nextjs/out/
+frontend-nextjs/build/
+frontend-nextjs/.vercel/
+frontend-nextjs/npm-debug.log*
+frontend-nextjs/yarn-debug.log*
+frontend-nextjs/yarn-error.log*
+
+# --- VS Code ---
+.vscode/
+*.code-workspace
